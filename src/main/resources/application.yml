@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:sqlserver://spring-azuresql.database.windows.net:1433;database=springboot-sql;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
+    url: jdbc:sqlserver://spring-azuresql.database.windows.net:1433;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
     username: spring-azuresql
     password: 1QAZ2wsx
   jpa:
