@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:sqlserver://spring-azuresql.database.windows.net:1433;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
-    username: spring-azuresql
-    password: 1QAZ2wsx
+    url: jdbc:sqlserver://sb-sr.database.windows.net:1433;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
+    username: sb-sr
+    password: pass@123
   jpa:
     show-sql: true
     hibernate:
